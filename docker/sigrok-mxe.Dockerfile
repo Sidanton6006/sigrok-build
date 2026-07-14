@@ -33,7 +33,7 @@ RUN apt-get update \
 		gtk-doc-tools \
 		intltool \
 		libc6-dev-i386 \
-		libgdk-pixbuf2.0-dev \
+		libgdk-pixbuf-2.0-dev \
 		libltdl-dev \
 		libssl-dev \
 		libtool-bin \
