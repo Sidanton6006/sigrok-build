@@ -28,7 +28,7 @@ jobs:
       - name: Build and publish MXE container
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./docker
           file: ./docker/sigrok-mxe.Dockerfile
           push: true
           tags: ghcr.io/sidanton6006/sigrok-mxe:latest
