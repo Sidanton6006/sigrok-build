@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ghcr.io/sigrokproject/sigrok-mxe:latest
+      image: ghcr.io/sidanton6006/sigrok-mxe:latest
 
     strategy:
       matrix:
