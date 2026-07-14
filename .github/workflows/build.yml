@@ -47,11 +47,9 @@ jobs:
     strategy:
       matrix:
         target:
-          - { target: "i686", nsis_param: "" }
           - { target: "x86_64", nsis_param: "-DPE64=1" }
         build_type:
           - { type: "Release", name: "release" }
-          - { type: "Debug", name: "debug" }
 
     env:
       TARGET: ${{ matrix.target.target }}
