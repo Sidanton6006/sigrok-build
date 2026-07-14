@@ -1,4 +1,4 @@
-FROM debian:latest AS sigrok-mxe
+FROM debian:bookworm AS sigrok-mxe
 LABEL \
 	org.opencontainers.image.title="sigrok MXE Build Image" \	
 	org.opencontainers.image.description="This image is used to cross compile the sigrok artifacts for Windows with MXE" \
